@@ -108,16 +108,18 @@
                 <hr>
                 <p>Login ke akun Anda</p>
                 <label>Email</label>
-                <input type="text" placeholder="@gmail.com">
+                <input type="text" id="username@gmail.com" name="@gmail.com" required>
                 <label>Password</label>
-                <input type="password" placeholder="Masukkan Password">
-                <button>Log In</button>
+                <input type="password" id="12345" name="password" required>
+                <label for="pilihan_user">Pilihan User</label> 
+                <select name='pilihan_user' class="select"><br>
+                    <option value='surveyor'>Admin</option>
+                    <option value='surveyor'>Surveyor</option>
+                </select><br>
+                <a href="map.html"><button type="button">Login</button></a>
                 <p>
                     <a href="register.html">Belum punya akun? Register</a>
                 </p>
-            <closeform></closeform></form>
+            </form>    
         </div>
     </div>
-
-</body>
-</html>
