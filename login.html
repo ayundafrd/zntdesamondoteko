@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", montserrat;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #38a377;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        max-width: 850px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    .login{
+        width: 400px;
+    }
+    form{
+        width: 400px;
+        margin: 60px auto;
+    }
+    .login form{
+        margin-left: 55%;
+    }
+    h1{
+        margin: 20px;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    p{
+        text-align: center;
+        margin: 10px;
+    }
+    hr{
+        border-top: 2px solid #38a377;
+    }
+    
+    .pic img{
+        width: 500px;
+        height: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    form label{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px;
+    }
+    input{
+        width: 100%;
+        margin: 2px;
+        border: none;
+        outline: none;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    button{
+        margin-left: 18%;
+        border: none;
+        outline: none;
+        padding: 8px;
+        width: 252px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+        background: #38a377;
+    }
+    button:hover{
+        background: #38a377;
+    }
+    p{
+        margin: 20px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+    }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Login SIMON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <form>
+                <h1>SIMON</h1>
+                <hr>
+                <p>Login ke akun Anda</p>
+                <label>Email</label>
+                <input type="text" placeholder="@gmail.com">
+                <label>Password</label>
+                <input type="password" placeholder="Masukkan Password">
+                <button>Log In</button>
+                <p>
+                    <a href="register.html">Belum punya akun? Register</a>
+                </p>
+            <closeform></closeform></form>
+        </div>
+    </div>
+
+</body>
+</html>
